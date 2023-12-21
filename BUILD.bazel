@@ -1,0 +1,3 @@
+load("//:rule.bzl", "get_developer_dir")
+
+get_developer_dir(name = "dd")
